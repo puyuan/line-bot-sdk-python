@@ -2,8 +2,10 @@
 
 from setuptools import setup
 from pip.req import parse_requirements
+import os
 
-requirements_txt = './requirements.txt'
+package_root = os.path.abspath(os.path.dirname(__file__))
+requirements_txt = os.path.join(package_root, 'requirements.txt')
 requires = [str(r.req) for r in parse_requirements(requirements_txt, session=False)]
 
 setup(
