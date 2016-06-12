@@ -8,7 +8,7 @@ requires = [str(r.req) for r in parse_requirements(requirements_txt, session=Fal
 
 setup(
     name='linebot',
-    version='0.2',
+    version='0.3',
     packages=['linebot'],
     install_requires=requires,
     author='Satoshi SUZUKI',
