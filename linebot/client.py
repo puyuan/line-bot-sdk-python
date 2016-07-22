@@ -132,4 +132,5 @@ class LineBotClient():
         url = self.__generate_url('profiles')
         url = '{}?mids={}'.format(url, ','.join(mids))
         response = self.__get(url)
-        return [UserProfile(contact) for contact in json.loads(response.content)['contacts']]
+        response_json = response.json()
+        return [UserProfile(contact) for contact in response_json['contacts']]
