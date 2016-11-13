@@ -2,7 +2,7 @@
 
 import responses
 
-from linebot.client import LineBotClient
+from linebottrial.client import LineBotClient
 
 
 class TestLineBotClient():

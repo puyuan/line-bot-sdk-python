@@ -2,8 +2,8 @@
 
 import json
 
-from linebot import messages
-from linebot.constants import ContentType
+from linebottrial import messages
+from linebottrial.constants import ContentType
 
 
 class MultipleMessage():

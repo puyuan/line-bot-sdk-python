@@ -9,11 +9,11 @@ try:
 except:
     from urllib.parse import urlparse, urljoin
 
-from linebot import builders
-from linebot import constants
-from linebot import messages
-from linebot.requests import Request
-from linebot.users import UserProfile
+from linebottrial import builders
+from linebottrial import constants
+from linebottrial import messages
+from linebottrial.requests import Request
+from linebottrial.users import UserProfile
 
 
 class LineBotClient():

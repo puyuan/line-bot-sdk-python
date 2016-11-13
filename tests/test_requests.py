@@ -2,8 +2,8 @@
 
 import json
 
-from linebot import constants
-from linebot.requests import Request
+from linebottrial import constants
+from linebottrial.requests import Request
 
 
 class TestRequest():

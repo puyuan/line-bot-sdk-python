@@ -4,9 +4,9 @@ import json
 import pytest
 import responses
 
-from linebot import builders
-from linebot import messages
-from linebot.client import LineBotClient
+from linebottrial import builders
+from linebottrial import messages
+from linebottrial.client import LineBotClient
 
 
 @pytest.fixture

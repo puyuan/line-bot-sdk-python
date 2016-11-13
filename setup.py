@@ -9,9 +9,9 @@ requirements_txt = os.path.join(package_root, 'requirements.txt')
 requires = [str(r.req) for r in parse_requirements(requirements_txt, session=False)]
 
 setup(
-    name='linebot',
+    name='linebottrial',
     version='0.3.1',
-    packages=['linebot'],
+    packages=['linebottrial'],
     install_requires=requires,
     author='Satoshi SUZUKI',
     author_email='studio3104.com@gmail.com',

@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 
-from linebot import messages
-from linebot import operations
-from linebot.receives import Receive
+from linebottrial import messages
+from linebottrial import operations
+from linebottrial.receives import Receive
 
 
 class TestReceive():

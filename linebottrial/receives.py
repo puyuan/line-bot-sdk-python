@@ -2,9 +2,9 @@
 
 import json
 
-from linebot import messages
-from linebot import operations
-from linebot.constants import ContentType, OpType, ReceiveEventType
+from linebottrial import messages
+from linebottrial import operations
+from linebottrial.constants import ContentType, OpType, ReceiveEventType
 
 
 class Receive():

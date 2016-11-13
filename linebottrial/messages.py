@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from linebot.constants import ContentType
+from linebottrial.constants import ContentType
 
 
 class MessageBase(object):

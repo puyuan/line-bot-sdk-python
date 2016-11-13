@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from linebot import messages
+from linebottrial import messages
 
 
 class TestMessages():

@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from linebot import constants
+from linebottrial import constants
 
 
 class TestConstants():

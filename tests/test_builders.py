@@ -3,7 +3,7 @@
 import json
 import responses
 
-from linebot.builders import MultipleMessage, RichMessage
+from linebottrial.builders import MultipleMessage, RichMessage
 
 
 class TestMultipleMessage():

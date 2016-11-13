@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from linebot.users import UserProfile
+from linebottrial.users import UserProfile
 
 
 class TestUserProfile():

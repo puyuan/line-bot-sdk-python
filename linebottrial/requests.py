@@ -6,7 +6,7 @@ import copy
 import json
 import requests
 
-from linebot import constants
+from linebottrial import constants
 
 
 class Request():
